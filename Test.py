@@ -14,8 +14,10 @@ import matplotlib.pyplot as plt
 st.title('Clasificadores')
 
 st.write('''
+
 ## Explora diferentes clasificadores
 ### Cual es el mejor?
+
 ''')
 
 dataset_name = st.sidebar.selectbox('Selecciona Data: ', ('Iris', 'Breast Cancer', 'Wine'))
@@ -117,3 +119,4 @@ plt.colorbar()
 # Imprime en Dashboard
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot()
+
